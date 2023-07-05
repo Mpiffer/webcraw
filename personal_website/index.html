@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-900 text-white">
+    <header class="text-center py-5">
+        <h1 class="text-4xl">Welcome to My Personal Website</h1>
+        <p class="text-lg">This website is built using HTML, CSS and Tailwind CSS</p>
+    </header>
+    <main class="container mx-auto">
+        <section id="about" class="my-5">
+            <h2 class="text-2xl">About Me</h2>
+            <p>I am a web developer and data enthusiast. I built a web scraper to extract data from Reddit.</p>
+        </section>
+        <section id="projects" class="my-5">
+            <h2 class="text-2xl">Projects</h2>
+            <div id="redditData" class="grid grid-cols-3 gap-4">
+                <!-- Project data will be inserted here by main.js -->
+            </div>
+        </section>
+    </main>
+    <footer class="text-center py-5">
+        <p>© 2022 My Personal Website</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
